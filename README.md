@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎥🎞️ Movie Suggestion 🎬🍿
 
-## Getting Started
+![Node Version](https://img.shields.io/badge/node-20.11.0-6cc248?style=for-the-badge)
+![Next.js Version](https://img.shields.io/badge/next.js-14.2.3-111111?style=for-the-badge)
+![React Version](https://img.shields.io/badge/react-18.3.1-62dafc?style=for-the-badge)
+![TypeScript Version](https://img.shields.io/badge/typescript-5.4.5-3178c6?style=for-the-badge)
+![Gemini Model](https://img.shields.io/badge/gemini-1.0_pro-8879cb?style=for-the-badge)
 
-First, run the development server:
+## Sobre
+
+Curtiu muito de um filme e gostaria de assistir outros parecidos? Nós recomendamos pra você!
+
+Utilizando o Google Gemini ⟡ a aplicação encontra os melhores filmes e séries baseadas nos filmes que você gosta.
+
+![](https://github.com/fredws/gemini-movie-suggestion/blob/main/public/app.gif)
+
+## Instalação
+
+Clone o projeto para o seu computador:
+
+```bash
+git clone https://github.com/fredws/gemini-movie-suggestion.git
+```
+
+Preencha a variável **GEMINI_API_KEY** do arquivo `.env` com sua chave API do Gemini.
+
+Instale as dependencias do projeto:
+
+```bash
+npm install
+```
+
+Execute o projeto em modo de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse *http://localhost:3000* para utilizar a aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demonstração
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Você também pode acessar https://gemini-movie-suggestion.vercel.app e ver o **Movie Suggestion** em ação sem precisar configurar nada.
