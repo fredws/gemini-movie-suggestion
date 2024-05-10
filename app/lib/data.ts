@@ -8,6 +8,6 @@ export async function fetchMovies(query: string) {
 
     return Promise.all(movies);
   } catch (error) {
-    return {};
+    return [];
   }
 }

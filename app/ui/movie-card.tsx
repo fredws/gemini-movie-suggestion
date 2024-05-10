@@ -1,6 +1,13 @@
 import React from 'react';
-import { MovieProps } from "@/types/movie";
 import { fetchPoster } from '@/app/lib/poster';
+
+export interface MovieProps {
+  title: string,
+  original_title: string,
+  year: number,
+  image: string,
+  genre: string[]
+}
 
 export async function MovieCard({ movie }: { movie: MovieProps }) {
   let poster = await fetchPoster(movie.original_title);
@@ -21,7 +28,7 @@ export async function MovieCard({ movie }: { movie: MovieProps }) {
         <div className="flow items-center justify-center">
           {movie.genre.map((genre: string) => {
             return(
-              <span className="inline-flex text-center bg-gray-50 px-5 rounded-full py-[2px] mx-1 my-1 text-xs text-gray-600 ring-1 ring-inset ring-gray-500/10">
+              <span key={genre} className="inline-flex text-center bg-gray-50 px-5 rounded-full py-[2px] mx-1 my-1 text-xs text-gray-600 ring-1 ring-inset ring-gray-500/10">
                 {genre}
               </span>
             )

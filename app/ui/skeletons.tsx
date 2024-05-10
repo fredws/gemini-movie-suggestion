@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function MoviesSkeleton() {
+export default function MoviesSkeleton() {
   return (
     <div className="grid rounded-lg xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1">
       <MovieSkeleton />

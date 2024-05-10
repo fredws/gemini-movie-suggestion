@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { MoviesSkeleton } from '@/app/ui/skeletons';
+import MoviesSkeleton from '@/app/ui/skeletons';
 import Search from '@/app/ui/search';
 import Movies from '@/app/ui/movies';
 
