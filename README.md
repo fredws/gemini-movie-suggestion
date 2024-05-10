@@ -8,9 +8,9 @@
 
 ## Sobre
 
-Curtiu muito de um filme e gostaria de assistir outros parecidos? Nós recomendamos pra você!
+Curtiu muito um filme e gostaria de assistir outros parecidos? Nós encontramos pra você!
 
-Utilizando o Google Gemini ⟡ a aplicação encontra os melhores filmes e séries baseadas nos filmes que você gosta.
+Utilizando o Google Gemini ⟡ a aplicação recomenda os melhores filmes baseados nos filmes que você gosta.
 
 ![](https://github.com/fredws/gemini-movie-suggestion/blob/main/public/app.gif)
 
